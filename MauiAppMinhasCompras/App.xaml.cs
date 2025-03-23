@@ -23,6 +23,8 @@ namespace MauiAppMinhasCompras
             }
         }
 
+        public static object Db { get; internal set; }
+
         public App()
         {
             InitializeComponent();
